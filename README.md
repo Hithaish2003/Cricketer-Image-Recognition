@@ -89,14 +89,13 @@ Similarity Comparison: The feature vector of the uploaded image is compared agai
 Prediction: The cricketer with the highest similarity score is presented as the prediction, as long as the score is above a set confidence threshold.
 
 📂 Project Structure
-├── app.py                  # Main Flask application logic
-
-├── requirements.txt          # Python dependencies
+├── app.py                  
+├── requirements.txt          
 ├── templates/
-│   └── index.html          # HTML template for the user interface
+│   └── index.html          
 ├── static/
-│   └── uploads/            # Directory where user images are temporarily saved
-└── cricketer_images/         # Directory for reference cricketer photos (you must create this)
+│   └── uploads/            
+└── cricketer_images/        
 
 
 ![Screenshot_24-9-2025_211010_127 0 0 1](https://github.com/user-attachments/assets/2e1403f7-66c4-4b8f-b40a-78fe7c386cdb)
